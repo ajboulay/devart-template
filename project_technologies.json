@@ -1,16 +1,16 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "g+"
         ],
         "platforms": [
-            "insert platforms"
+            "windows"
         ],
         "toolkits": [
-            "insert toolkits"
+            "angularjs"
         ]
     },
     "themes": [
-        "insert themes"
+        "Holographic"
     ]
 }

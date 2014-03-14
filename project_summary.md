@@ -2,7 +2,7 @@
 Multiverse
 
 ## Author
-- AJ Boulay, ajboulay
+- AJ Boulay, https://github.com/ajboulay
 
 
 ## Description
@@ -13,12 +13,30 @@ NOTE: If your project lives online you can add one or more links here. Make sure
 
 [Example Link](http://www.google.com "Example Link")
 
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
+## Example Code - Configuration File for one of the Neural Networks 
+
+NODES:
+nodes = 16
+inputs = 8
+outputs = 8
+output nodes are 1-8
+CONNECTIONS:
+groups = 0
+1-8 from i1-i8 = 1. & 1. fixed one-to-one
+9-16 from 1-8 = 1. & 1. fixed one-to-one
+1 from 10-16
+2 from 9, 11-16
+3 from 9, 10, 12-16
+4 from 9-11, 13-16
+5 from 9-13, 15, 16
+6 from 9-14, 16
+8 from 9-15 
+SPECIAL:
+linear = 9-16
+bipolar = 1-8
+selected = 1-8
+weight_limit = 0
+
 ```
 ## Links to External Libraries
  NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
